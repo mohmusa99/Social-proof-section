@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+body{
+    font-family: "League Spartan";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    width: 375px;
+    background-color: white;
+    padding: 70px 30px ;
+}
+
+.heading{
+   color: hsl(300, 43%, 22%);
+   text-align: center;
+   font-weight: 700;
+   font-size: 40px;
+   padding: 0px 50px;
+   margin-bottom: 0;
+}
+
+.objective{
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Rating section */
+
+.rating_section-box{
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 7px;
+    margin-bottom: 13px;
+}
+
+.rating_section-box p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+.rating_section-box i{
+    color: rgba(255, 170, 0, 0.698);
+}
+
+/* Rating section End */
+
+/* Review section */
+
+#reviews-section{
+    margin-top: 50px;
+}
+.reviews_section-card{
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%) ;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.profile{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.profile-tag{
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.reviews_section-card img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.role{
+    margin-top: 0;
+    color: hsl(333, 80%, 67%);
+}
+
+.testimony{
+    line-height: 1.5;
+}
+
+/* Review section End */
